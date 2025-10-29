@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>دوست داشتنی‌های من 💖</title>
+
+<link rel="stylesheet" href="cssstyle/BootStrap/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+body {
+font-family: 'Vazirmatn', sans-serif;
+background: linear-gradient(120deg, #ffe6f0, #e6f0ff);
+padding: 40px;
+text-align: center;
+transition: background 2s;
+}
+
+h1 {
+font-size: 3rem;
+font-weight: bold;
+margin-bottom: 50px;
+background: linear-gradient(90deg, #ff3399, #ff6600, #00b3ff, #9933ff);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-size: 300% 300%;
+animation: colorMove 5s infinite linear;
+}
+
+@keyframes bgChange {
+0% { background: linear-gradient(120deg, #ffe6f0, #e6f0ff); }
+50% { background: linear-gradient(120deg, #fff0e6, #f0ffe6); }
+100% { background: linear-gradient(120deg, #ffe6f0, #e6f0ff); }
+}
+body { animation: bgChange 60s infinite linear; }
+
+@keyframes colorMove {
+0% { background-position: 0% 50%; }
+50% { background-position: 100% 50%; }
+100% { background-position: 0% 50%; }
+}
+
+.section-box {
+border: 4px solid;
+border-image: linear-gradient(90deg, #ff80bf, #66ccff, #ffcc66, #cc99ff) 1;
+border-radius: 20px;
+padding: 30px;
+margin-bottom: 50px;
+background: #fff;
+box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+transition: 0.4s;
+}
+.section-box:hover {
+transform: translateY(-5px);
+box-shadow: 0 12px 30px rgba(255, 153, 204, 0.3);
+}
+.section-title {
+font-size: 2rem;
+font-weight: 700;
+color: #ff3399;
+margin-bottom: 35px;
+}
+
+.card-container {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 20px;
+}
+.card {
+background-color: white;
+border-radius: 12px;
+box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+width: 250px;
+text-align: center;
+padding: 15px;
+border: 5px solid;
+border-image: linear-gradient(45deg, #ff3399, #ff6600, #00b3ff, #33ff99, #9933ff) 1;
+animation: borderColorChange 60s linear infinite;
+transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+transform: translateY(-8px) scale(1.03);
+box-shadow: 0 10px 25px rgba(255,105,180,0.4);
+}
+.card img {
+width: 100%;
+height: auto;
+border-radius: 8px;
+}
+.card h3 {
+margin-top: 10px;
+font-size: 18px;
+color: #ff3399;
+}
+.card p {
+font-size: 14px;
+color: #555;
+}
+
+@keyframes borderColorChange {
+0% { border-image: linear-gradient(45deg, #ff3399, #ff6600, #00b3ff, #33ff99, #9933ff) 1; }
+25% { border-image: linear-gradient(45deg, #33ff99, #9933ff, #ff3399, #00b3ff, #ff6600) 1; }
+50% { border-image: linear-gradient(45deg, #00b3ff, #ff3399, #33ff99, #ff6600, #9933ff) 1; }
+75% { border-image: linear-gradient(45deg, #ff6600, #33ff99, #9933ff, #00b3ff, #ff3399) 1; }
+100% { border-image: linear-gradient(45deg, #ff3399, #ff6600, #00b3ff, #33ff99, #9933ff) 1; }
+}
+
+video, audio {
+width: 100%;
+max-width: 400px;
+border-radius: 12px;
+border: 5px solid; 
+border-image: linear-gradient(45deg, #ff3399, #ff6600, #00b3ff, #33ff99, #9933ff) 1;
+margin-top: 15px;
+box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+transition: transform 0.3s, box-shadow 0.3s;
+}
+video:hover, audio:hover {
+transform: scale(1.03);
+box-shadow: 0 10px 25px rgba(255,105,180,0.4);
+}
+
+footer {
+margin-top: 60px;
+color: #777;
+font-size: 15px;
+}
+footer strong {
+color: #ff3399;
+}
+
+/* 🌸 استایل منو */
+nav {
+background: linear-gradient(90deg, #ff99cc, #ffcc99, #99ccff, #cc99ff);
+border-radius: 15px;
+padding: 12px 25px;
+margin-bottom: 40px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+nav ul {
+list-style: none;
+display: flex;
+justify-content: center;
+gap: 25px;
+margin: 0;
+padding: 0;
+}
+nav ul li a {
+text-decoration: none;
+color: white;
+font-weight: 700;
+font-size: 18px;
+transition: 0.3s;
+}
+nav ul li a:hover {
+color: #ff3399;
+transform: scale(1.1);
+}
+</style>
+</head>
+<body>
+
+<!-- 🌸 منو -->
+<nav>
+  <ul>
+    <li><a href="#books">📚 کتاب‌ها</a></li>
+    <li><a href="#music">🎵 موسیقی‌ها</a></li>
+    <li><a href="#videos">🎬 فیلم‌ها</a></li>
+    <li><a href="#companies">🏷 شرکت‌ها</a></li>
+  </ul>
+</nav>
+
+<h1>دوست داشتنی‌های من 💖</h1>
+
+<!
+-- 📚 کتاب‌ها -->
+<div id="books" class="container section-box">
+<div class="section-title">📚 کتاب‌های من</div>
+<div class="card-container">
+<div class="card">
+<img src="img/photo1761385006 (1)_1_11zon_537x800.jpg" alt="کتاب اول">
+<h3>کتاب اول</h3>
+<p>این کتاب درباره‌ای از سفرهای ذهنی و کشف آن است.</p>
+</div>
+<div class="card">
+<img src="img/photo1761385006 (2)_2_11zon_537x800.jpg" alt="کتاب دوم">
+<h3>کتاب دوم</h3>
+<p>ترکیبی از خیال، احساس و الهام زندگی.</p>
+</div>
+<div class="card">
+<img src="img/photo1761385006_3_11zon_537x800.jpg" alt="کتاب سوم">
+<h3>کتاب سوم</h3>
+<p>روایتی از دنیای خیالی و دوستی‌ها.</p>
+</div>
+</div>
+</div>
+
+<!-- 🎵 موسیقی -->
+<div id="music" class="container section-box">
+<div class="section-title">🎵 موسیقی‌های من</div>
+<div class="row g-4 justify-content-center">
+<div class="col-md-6 col-sm-12 d-flex justify-content-center">
+<audio controls>
+<source src="audio/_- Instrumental Clip 1 (320) (1).mp3" type="audio/mpeg">
+مرورگر شما از صوت پشتیبانی نمی‌کند.
+</audio>
+</div>
+<div class="col-md-6 col-sm-12 d-flex justify-content-center">
+<audio controls>
+<source src="audio/_- Instrumental Clip 9 (320).mp3" type="audio/mpeg">
+مرورگر شما از صوت پشتیبانی نمی‌کند.
+</audio>
+</div>
+</div>
+</div>
+
+<!-- 🎬 فیلم‌ها -->
+<div id="videos" class="container section-box">
+<div class="section-title">🎬 فیلم‌های من</div>
+<div class="row g-4 justify-content-center">
+<div class="col-md-6 col-sm-12 d-flex justify-content-center">
+<video controls>
+<source src="video/6e8f082533bf6c6cdaa89bb6b1eee1dc60185907-480p.mp4" type="video/mp4">
+مرورگر شما از ویدیو پشتیبانی نمی‌کند.
+</video>
+</div>
+<div class="col-md-6 col-sm-12 d-flex justify-content-center">
+<video controls>
+<source src="video/2f662798fed3415c60f2606db987c2b047043048-720p.mp4" type="video/mp4">
+مرورگر شما از ویدیو پشتیبانی نمی‌کند.
+</video>
+</div>
+</div>
+</div>
+
+<!-- 🏷 شرکت‌ها -->
+<div id="companies" class="container section-box">
+<div class="section-title">🏷 شرکت‌های تهیه‌کننده مورد استفاده من</div>
+<p>نشر سپید، صداگستر، نوافیلم، پویانما</p>
+</div>
+
+<footer>طراحی شده با 💖 توسط <strong>سودابه</strong></footer>
+
+<script src="cssstyle/BootStrap/js/bootstrap.min.js"></script>
+</body>
+</html>
